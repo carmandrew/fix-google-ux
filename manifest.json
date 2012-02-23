@@ -1,0 +1,12 @@
+{
+  "name": "Fix Google's Terrible UX",
+  "version": "0.1",
+  "description": "Re-enable clicking on Google logo to simulate refresh or go home events.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/reader/*", "*://mail.google.com/*"],
+      "js": ["jquery.js", "fix-ux.js"],
+      "all_frames": true
+    }
+  ]
+}
