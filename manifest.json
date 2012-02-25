@@ -6,6 +6,7 @@
     {
       "matches": ["*://www.google.com/reader/*", "*://mail.google.com/*"],
       "js": ["jquery.js", "fix-ux.js"],
+      "css": ["fix-ux.css"],
       "all_frames": true
     }
   ]
